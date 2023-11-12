@@ -1,0 +1,14 @@
+C:\Education\Lesson1\HillelLesson1\bin\Debug\net6.0\HillelLesson1.exe
+C:\Education\Lesson1\HillelLesson1\bin\Debug\net6.0\HillelLesson1.deps.json
+C:\Education\Lesson1\HillelLesson1\bin\Debug\net6.0\HillelLesson1.runtimeconfig.json
+C:\Education\Lesson1\HillelLesson1\bin\Debug\net6.0\HillelLesson1.dll
+C:\Education\Lesson1\HillelLesson1\bin\Debug\net6.0\HillelLesson1.pdb
+C:\Education\Lesson1\HillelLesson1\obj\Debug\net6.0\HillelLesson1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Education\Lesson1\HillelLesson1\obj\Debug\net6.0\HillelLesson1.AssemblyInfoInputs.cache
+C:\Education\Lesson1\HillelLesson1\obj\Debug\net6.0\HillelLesson1.AssemblyInfo.cs
+C:\Education\Lesson1\HillelLesson1\obj\Debug\net6.0\HillelLesson1.csproj.CoreCompileInputs.cache
+C:\Education\Lesson1\HillelLesson1\obj\Debug\net6.0\HillelLesson1.dll
+C:\Education\Lesson1\HillelLesson1\obj\Debug\net6.0\refint\HillelLesson1.dll
+C:\Education\Lesson1\HillelLesson1\obj\Debug\net6.0\HillelLesson1.pdb
+C:\Education\Lesson1\HillelLesson1\obj\Debug\net6.0\HillelLesson1.genruntimeconfig.cache
+C:\Education\Lesson1\HillelLesson1\obj\Debug\net6.0\ref\HillelLesson1.dll
