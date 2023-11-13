@@ -6,31 +6,32 @@ internal class Program
     private static void Main(string[] args)
     {
         Console.WriteLine("----------------------- First task -----------------------");
-        First();
+        //First();
         Console.WriteLine("----------------------- Second task -----------------------");
         Second();
         Console.WriteLine("----------------------- Third task -----------------------");
-        Third();
+        //Third();
         Console.WriteLine("----------------------- Forth task -----------------------");
-        Forth();
+        //Forth();
         Console.WriteLine("----------------------- Fifth task -----------------------");
-        Fifth();
+        //Fifth();
         Console.ReadKey();
     }
     private static void First()
     {
-        Console.WriteLine("Write a one letter:");
-        string letter = Console.ReadLine() ?? "";
+        string letter;
         Regex regex = new Regex("[a-zA-Z]");
-        Match match = regex.Match(letter);
+        Match match;
 
-        while (letter == null || letter.Length != 1 || !match.Success) 
+        do
         {
             Console.WriteLine("Write a one letter:");
             letter = Console.ReadLine() ?? "";
             match = regex.Match(letter);
         }
-   
+        while (letter == null || letter.Length != 1 || !match.Success);
+
+
         string letterToLower = letter.ToLower();
         int placeInAlphabet = char.Parse(letterToLower) - 'a';
         Console.WriteLine($"{letter} is {placeInAlphabet + 1} letter in alphabet");
@@ -51,26 +52,22 @@ internal class Program
         Console.WriteLine("Write a delimiter:");
         string delimiter = Console.ReadLine() ?? "";
         List<string> result = new List<string>();
-        string word = "";
+        int index = 0;
 
-        foreach (char c in str)
+        for (int i = 0; i < str.Length; i++)
         {
-            if (c.ToString() == delimiter && word.Length != 0)
+            if (str[i].ToString() == delimiter)
             {
-                result.Add(word.Trim());
-                Console.WriteLine(word.Trim());
-                word = "";
-            }
-            else
-            {
-                word += c;
+                result.Add(str.Substring(index, i - index));
+                index = i + 1;
             }
         }
 
-        if (word.Length != 0)
+        result.Add(str.Substring(index));
+
+        foreach (string s in result)
         {
-            result.Add(word.Trim());
-            Console.WriteLine(word.Trim());
+            Console.WriteLine(s.Trim());
         }
     }
 
