@@ -6,15 +6,15 @@ internal class Program
     private static void Main(string[] args)
     {
         Console.WriteLine("----------------------- First task -----------------------");
-        //First();
+        First();
         Console.WriteLine("----------------------- Second task -----------------------");
         Second();
         Console.WriteLine("----------------------- Third task -----------------------");
-        //Third();
+        Third();
         Console.WriteLine("----------------------- Forth task -----------------------");
-        //Forth();
+        Forth();
         Console.WriteLine("----------------------- Fifth task -----------------------");
-        //Fifth();
+        Fifth();
         Console.ReadKey();
     }
     private static void First()
